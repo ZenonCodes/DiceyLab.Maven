@@ -23,6 +23,7 @@ public class Dice {
     }
 
     public Integer tossAndSum() {
+        sum = 0;
         if (numOfDice == 0){
             return null;
         }
